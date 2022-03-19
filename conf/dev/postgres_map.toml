@@ -1,0 +1,13 @@
+# this is postgres config
+[list]
+    [list.default]
+        driver_name = "postgres"
+        url = "10.36.234.85"
+        username = "postgres"
+        password = "wzkcy@123"
+        dbname = "zs"
+        port = "5432"
+        config = "sslmode=disable"
+        max_open_conn = 20
+        max_idle_conn = 10
+        max_conn_life_time = 100
